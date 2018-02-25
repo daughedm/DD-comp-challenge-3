@@ -1,0 +1,706 @@
+body,
+:hover {
+    cursor: url(http://cur.cursors-4u.net/others/oth-1/oth28.cur), progress !important;
+}
+
+/* End http://www.cursors-4u.com */
+body {
+    font-family: 'Signika Negative',
+    sans-serif;
+    background: rgb(240, 241, 241);
+}
+/* rgb(248, 173, 148) - Peach
+rgb(246, 122, 131) - Rose
+rgb(209, 110, 131) - Dusty Rose
+rgb(150, 100, 128) - Purlpe
+rgb(53, 92, 125) - Blue */
+/* font-family: 'Roboto',
+sans-serif; */
+
+html {
+    padding: 0;
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.subtext {
+     fill: rgb(70, 70, 70);
+     font-size: .2rem;
+     font-family: 'Signika Negative',
+     sans-serif;
+     font-weight: 400;
+}
+
+/* ~~~~~~~~~~Left Nav Styling~~~~~~~~~~~ */
+
+figure {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    padding: 0;
+}
+
+h1 {
+    color: rgb(100, 100, 100);
+    padding: 0 0 5px 0;
+    font-size: 30px;
+}
+
+h3 {
+    font-family: 'Signika Negative',
+    sans-serif;
+    font-size: 13px;
+    margin: 5px 0 5px 15px;
+    color: rgb(177, 177, 177);
+    font-weight: 400;
+}
+
+i {
+    margin-right: 10px;
+}
+
+#left-nav {
+    width: 15%;
+    min-width: 180px;
+    height: 1350px;
+    position: absolute;
+    background: rgb(55, 64, 80);
+}
+
+.nav-text {
+    font-family: 'Signika Negative',sans-serif;
+    color: rgb(177, 177, 177);
+    font-weight: 400;
+    font-size: 14px;
+    padding: 5px 0 5px 0;
+    margin: auto 0 auto 15px;
+    width: 100%;
+    letter-spacing: 1px;
+}
+
+.Bill {
+    text-align: center;
+    margin: 0 0 0 5px;
+}
+
+.nav-text:hover {
+    color: #FFF;
+} 
+
+.nav-container {
+    border-bottom: solid 2px rgb(40, 47, 59);
+    width: 100%;
+    padding: 15px 0 15px 0;
+}
+
+.head-shot {
+    width: 50%;
+    border-radius: 100%;
+    text-align: center;
+    margin: 12% 25% 4% 25%;
+    transition: all .2s ease-in-out;
+}
+
+.head-shot:hover {
+    transform: scale(1.2);
+}
+
+.side-boxes {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: solid 3px transparent;
+    text-align: left;
+    height: 40px;
+}
+
+.side-boxes:hover {
+    background-color: rgb(40, 47, 59);
+    color: #FFF;
+    border-left: solid 3px rgb(248, 173, 148);
+    overflow: hidden;
+    cursor: url(../images/lightsaberred.cur);
+    width: 98%;
+}
+
+.rose:hover {
+    border-left: solid 3px rgb(246, 122, 131);
+}
+
+.purple:hover {
+    border-left: solid 3px rgb(150, 100, 128);
+}
+.categories {
+    margin-bottom: 12px;
+}
+
+/* ~~~~~~~~~~Right Nav Styling~~~~~~~~~~~ */
+
+#right-content {
+    width: 85%;
+    height: auto;
+    position: absolute;
+    right: 0;
+    
+}
+
+.top-bar {
+    display: flex;
+}
+
+.square-container {
+    background-color: #FFF;
+    height: 60px;
+    width: 60px;
+    border-bottom: solid 1px rgb(177, 177, 177);
+    border-left: solid 1px rgb(177, 177, 177);
+}
+
+.square-container:hover {
+    background-color: rgb(246, 122, 131);
+}
+
+.square-container-left {
+    background-color: #FFF;
+    height: 60px;
+    width: 60px;
+    border-bottom: solid 1px rgb(177, 177, 177);
+    border-right: solid 1px rgb(177, 177, 177);
+}
+
+.square-container-left:hover {
+    background-color: rgb(246, 122, 131);
+}
+
+.search-container {
+    background-color: #FFF;
+    height: 60px;
+    flex-grow: 1;
+    border-bottom: solid 1px rgb(177, 177, 177);
+}
+
+
+.icon-menu, 
+.icon-user-add, 
+.icon-export, 
+.icon-globe,
+.icon-search {
+    color: rgb(100, 100, 100);
+    font-size: 1.5rem;
+    line-height: 60px;
+    margin: 0;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    vertical-align: bottom;
+    display:inline-block;
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=1634);
+}
+
+.icon-menu:hover {
+    color: #FFF;
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=1634);
+}
+
+.icon-user-add:hover {
+    color: #FFF;
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=1634);
+}
+
+.icon-export:hover {
+    color: #FFF;
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=1634);
+}
+
+.icon-globe:hover {
+    color: #FFF;
+    cursor: url(http://www.rw-designer.com/cursor-extern.php?id=1634);
+}
+
+text {
+    fill: rgb(100, 100, 100);
+    font-size: .5rem;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 700;
+}
+
+.graph {
+    width: 30%;
+    margin: 10px 0 10px 70px;
+    vertical-align: top;
+    display: inline;
+}
+
+.margin-left {
+    margin-left: -10px;
+}
+
+.search-input {
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    height: 50px;
+    width: 80%;
+    margin-top: 5px;
+    vertical-align: top;
+}
+
+.top-tab-section {
+    background-color: #FFF;
+    border-bottom: solid 1px rgb(177, 177, 177);
+    padding: 35px 35px 0 35px;
+    /* display: flex; */
+}
+
+.location {
+    color: rgb(100, 100, 100);
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin: 0 0 20px -5px;
+} 
+
+.preview {
+    color: rgb(209, 110, 131);
+    cursor: url(../images/lightsaberred.cur);
+}
+
+.tab-containers {
+    display: inline-block;
+    text-align: center;
+    margin: 5px 10px 0px 15px;
+    padding-bottom: 10px;
+    border-bottom: solid 3px transparent;
+}
+
+.tab-containers:hover {
+    border-bottom: solid 3px rgb(209, 110, 131);
+}
+
+.tabs {
+    font-family: 'Signika Negative',sans-serif;
+    text-decoration: none;
+    color: rgb(177, 177, 177);
+    font-weight: 400;
+    font-size: 14px;
+    padding: 10px 0px 10px 0;
+    width: 100%;
+    letter-spacing: .5px;
+    text-align: center;
+}
+
+.first-tab {
+    margin-left: 0;
+}
+
+.tabs:hover {
+    color: rgb(100, 100, 100);
+}
+
+.infographics {
+    padding: 30px 30px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: solid 1px rgb(177, 177, 177);
+
+}
+
+.graph-btn {
+    font-family: 'Signika Negative', sans-serif;
+    text-decoration: none;
+    width: 140px;
+    height: 40px;
+    border-radius: 25px;
+    display: inline-block;
+    color: rgb(100, 100, 100);
+    font-size: 13px;
+    margin: 20px 0 30px 30px;
+    justify-content: space-around;
+}
+
+.graph-btn:hover {
+    background-color: rgb(55, 64, 80);
+    color: #FFF;
+}
+
+.table {
+    display: inline-block;
+    background-color: #FFF;
+    width: 65%;
+    margin-top: 30px;
+}
+
+.social-side {
+    width: 31%;
+    margin-top: 30px;
+    height: 600px;
+    display: inline-block;
+    float: right;
+}
+
+.job-header {
+    width: 100%;
+    background-color: rgb(150, 100, 128);
+}
+
+.table-row {
+    border-bottom: solid 1px rgb(177, 177, 177);
+    margin: auto;
+    width: 90%;
+}
+
+.table-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.table-text {
+    font-family: 'Signika Negative', sans-serif;
+    color: rgb(100, 100, 100);
+    font-weight: 400;
+    font-size: 14px;
+    padding: 30px 0 30px 0;
+    margin: 0;
+    letter-spacing: .75px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.table-column-one {
+    width: 25%;
+    display: inline-block;
+}
+
+.table-column-two {
+    width: 70%;
+    display: inline-block;
+    float: right; 
+}
+
+.yoda {
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    margin: 13px 10px 0 0;
+    display: inline-block;
+}
+
+.white {
+    color: #FFF;
+}
+
+.edit-btn {
+    font-family: 'Signika Negative',
+    sans-serif;
+    text-decoration: none;
+    background-color: rgb(150, 100, 128);
+    border: solid 1px #FFF;
+    color: #FFF;
+    padding: 7px 10px;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 18px;
+    border-radius: 5px;
+} 
+
+.edit-btn:hover {
+    color: rgb(150, 100, 128);
+    background-color: #FFF;
+}
+
+.roboto {
+    font-family: 'Roboto',
+    sans-serif;
+}
+
+.fb-btn {
+    width: 100%;
+    height: 45px;
+    color: #FFF;
+    margin-bottom: 15px;
+    background-color: rgb(80, 111, 186);
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+.twit-btn {
+    width: 100%;
+    height: 45px;
+    color: #FFF;
+    margin-bottom: 15px;
+    background-color: rgb(72, 168, 233);
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+.linked-btn {
+    width: 100%;
+    height: 45px;
+    color: #FFF;
+    margin-bottom: 15px;
+    background-color: rgb(54, 128, 183);
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+.social-container {
+    border-bottom: solid 1px rgb(177, 177, 177);
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.social-text {
+    font-weight: 700;
+    color: rgb(100, 100, 100);
+    font-size: 20px;
+    margin: 15px 0 0 0;
+}
+
+.soc-padding {
+    padding: 10px 0 15px 0;
+}
+
+.soc-input {
+    height: 45px;
+    border: solid 1px rgb(177, 177, 177);
+    width: 75%;
+    border-radius: 3px;
+    padding: 10px 0 10px 15px;
+}
+
+.soc-input::placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.copy-btn {
+    height: 45px;
+    color: #FFF;
+    
+    background-color: rgb(55, 64, 80);
+    width: 23%;
+    border-radius: 3px;
+    vertical-align: top;
+}
+
+.copy-btn:hover {
+    background-color: rgb(209, 110, 131);
+    
+}
+
+.no-btn {
+    width: 100%;
+}
+
+.no-border {
+    border: none;
+}
+
+
+/* ~~~~~~~~~~Checkbox Styling~~~~~~~~~~~ */
+.control {
+    font-family: 'Signika Negative',
+    sans-serif;
+    color: rgb(177, 177, 177);
+    font-weight: 400;
+    letter-spacing: .5px;
+    padding: 8px 0 8px 0;
+    display: block;
+    position: relative;
+    padding-left: 47px;
+    margin: 5px 0 5px 0;
+    padding-top: 5px;
+    font-size: 14px;
+}
+
+.control input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.control_indicator {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    height: 13px;
+    width: 13px;
+    background: rgb(248, 173, 148);
+    border: 1px solid rgb(177, 177, 177);
+    margin-left: 18px;
+}
+
+.control_indicator-2 {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    height: 13px;
+    width: 13px;
+    background: rgb(246, 122, 131);
+    border: 1px solid rgb(177, 177, 177);
+    margin-left: 18px;
+}
+
+.control_indicator-3 {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    height: 13px;
+    width: 13px;
+    background: rgb(209, 110, 131);
+    border: 1px solid rgb(177, 177, 177);
+    margin-left: 18px;
+}
+
+.control_indicator-4 {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    height: 13px;
+    width: 13px;
+    background: rgb(150, 100, 128);
+    border: 1px solid rgb(177, 177, 177);
+    margin-left: 18px;
+}
+
+.control-radio .control_indicator {
+    border-radius: undefined;
+}
+
+.control:hover input ~ .control_indicator,
+.control input:focus ~ .control_indicator {
+    background: #FFF;
+}
+
+.control:hover input ~ .control_indicator-2,
+.control input:focus ~ .control_indicator-2 {
+    background: #FFF;
+}
+
+.control:hover input ~ .control_indicator-3,
+.control input:focus ~ .control_indicator-3 {
+    background: #FFF;
+}
+
+.control:hover input~.control_indicator-4,
+.control input:focus~.control_indicator-4 {
+    background: #FFF;
+}
+
+.control input:checked~.control_indicator {
+    background: rgb(53, 92, 125);
+}
+
+.control input:checked~.control_indicator-2 {
+    background: rgb(53, 92, 125);
+}
+
+.control input:checked~.control_indicator-3 {
+    background: rgb(53, 92, 125);
+}
+
+.control input:checked~.control_indicator-4 {
+    background: rgb(53, 92, 125);
+}
+
+.control_indicator:after {
+    box-sizing: unset;
+    content: '';
+    position: absolute;
+    display: none;
+}
+
+.control_indicator-2:after {
+    box-sizing: unset;
+    content: '';
+    position: absolute;
+    display: none;
+}
+
+.control_indicator-3:after {
+    box-sizing: unset;
+    content: '';
+    position: absolute;
+    display: none;
+}
+
+.control_indicator-4:after {
+    box-sizing: unset;
+    content: '';
+    position: absolute;
+    display: none;
+}
+
+.control input:checked~.control_indicator:after {
+    display: block;
+}
+
+.control input:checked~.control_indicator-2:after {
+    display: block;
+}
+
+.control input:checked~.control_indicator-3:after {
+    display: block;
+}
+
+.control input:checked~.control_indicator-4:after {
+    display: block;
+}
+
+.control-checkbox .control_indicator:after {
+    left: 3px;
+    top: 1px;
+    width: 3px;
+    height: 5px;
+    border: solid #ffffff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.control-checkbox .control_indicator-2:after {
+    left: 3px;
+    top: 1px;
+    width: 3px;
+    height: 5px;
+    border: solid #ffffff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.control-checkbox .control_indicator-3:after {
+    left: 3px;
+    top: 1px;
+    width: 3px;
+    height: 5px;
+    border: solid #ffffff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.control-checkbox .control_indicator-4:after {
+    left: 3px;
+    top: 1px;
+    width: 3px;
+    height: 5px;
+    border: solid #ffffff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+label {
+    font-size: 14px;
+}
