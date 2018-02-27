@@ -3,38 +3,27 @@ body,
     cursor: url(http://cur.cursors-4u.net/others/oth-1/oth28.cur), progress !important;
 }
 
-/* End http://www.cursors-4u.com */
 body {
-    font-family: 'Signika Negative',
-    sans-serif;
+    font-family: 'Signika Negative', sans-serif;
     background: rgb(240, 241, 241);
 }
-/* rgb(248, 173, 148) - Peach
-rgb(246, 122, 131) - Rose
-rgb(209, 110, 131) - Dusty Rose
-rgb(150, 100, 128) - Purlpe
-rgb(53, 92, 125) - Blue */
-/* font-family: 'Roboto',
-sans-serif; */
 
 html {
     padding: 0;
     margin: 0;
 }
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-
-
 .subtext {
-     fill: rgb(70, 70, 70);
-     font-size: .2rem;
-     font-family: 'Signika Negative',
-     sans-serif;
-     font-weight: 400;
+    fill: rgb(70, 70, 70);
+    font-size: .2rem;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 400;
 }
 
 /* ~~~~~~~~~~Left Nav Styling~~~~~~~~~~~ */
@@ -55,8 +44,7 @@ h1 {
 }
 
 h3 {
-    font-family: 'Signika Negative',
-    sans-serif;
+    font-family: 'Signika Negative', sans-serif;
     font-size: 13px;
     margin: 5px 0 5px 15px;
     color: rgb(177, 177, 177);
@@ -76,7 +64,7 @@ i {
 }
 
 .nav-text {
-    font-family: 'Signika Negative',sans-serif;
+    font-family: 'Signika Negative', sans-serif;
     color: rgb(177, 177, 177);
     font-weight: 400;
     font-size: 14px;
@@ -93,7 +81,7 @@ i {
 
 .nav-text:hover {
     color: #FFF;
-} 
+}
 
 .nav-container {
     border-bottom: solid 2px rgb(40, 47, 59);
@@ -138,6 +126,7 @@ i {
 .purple:hover {
     border-left: solid 3px rgb(150, 100, 128);
 }
+
 .categories {
     margin-bottom: 12px;
 }
@@ -149,13 +138,12 @@ i {
     height: auto;
     position: absolute;
     right: 0;
-    
 }
 
 .top-heading {
     display: none;
     height: 60px;
-    width:100%;
+    width: 100%;
     background-color: rgb(55, 64, 80);
 }
 
@@ -194,10 +182,9 @@ i {
     border-bottom: solid 1px rgb(177, 177, 177);
 }
 
-
-.icon-menu, 
-.icon-user-add, 
-.icon-export, 
+.icon-menu,
+.icon-user-add,
+.icon-export,
 .icon-globe,
 .icon-search {
     color: rgb(100, 100, 100);
@@ -208,7 +195,7 @@ i {
     height: 60px;
     text-align: center;
     vertical-align: bottom;
-    display:inline-block;
+    display: inline-block;
     cursor: url(http://www.rw-designer.com/cursor-extern.php?id=1634);
 }
 
@@ -272,7 +259,7 @@ text {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     margin: 0 0 20px -5px;
-} 
+}
 
 .preview {
     color: rgb(209, 110, 131);
@@ -292,7 +279,7 @@ text {
 }
 
 .tabs {
-    font-family: 'Signika Negative',sans-serif;
+    font-family: 'Signika Negative', sans-serif;
     text-decoration: none;
     color: rgb(177, 177, 177);
     font-weight: 400;
@@ -319,7 +306,6 @@ text {
     display: flex;
     justify-content: space-around;
     border-bottom: solid 1px rgb(177, 177, 177);
-
 }
 
 .graph-btn {
@@ -394,7 +380,7 @@ text {
 .table-column-two {
     width: 70%;
     display: inline-block;
-    float: right; 
+    float: right;
 }
 
 .yoda {
@@ -410,8 +396,7 @@ text {
 }
 
 .edit-btn {
-    font-family: 'Signika Negative',
-    sans-serif;
+    font-family: 'Signika Negative', sans-serif;
     text-decoration: none;
     background-color: rgb(150, 100, 128);
     border: solid 1px #FFF;
@@ -421,7 +406,7 @@ text {
     font-size: 14px;
     margin-top: 18px;
     border-radius: 5px;
-} 
+}
 
 .edit-btn:hover {
     color: rgb(150, 100, 128);
@@ -429,8 +414,7 @@ text {
 }
 
 .roboto {
-    font-family: 'Roboto',
-    sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .fb-btn {
@@ -511,7 +495,6 @@ text {
 .copy-btn {
     height: 45px;
     color: #FFF;
-    
     background-color: rgb(55, 64, 80);
     width: 23%;
     border-radius: 3px;
@@ -520,7 +503,6 @@ text {
 
 .copy-btn:hover {
     background-color: rgb(209, 110, 131);
-    
 }
 
 .no-btn {
@@ -538,14 +520,12 @@ text {
 .tab-menu {
     height: 45px;
     margin: 30px 0 15px 0;
-
 }
 
-
 /* ~~~~~~~~~~Checkbox Styling~~~~~~~~~~~ */
+
 .control {
-    font-family: 'Signika Negative',
-    sans-serif;
+    font-family: 'Signika Negative', sans-serif;
     color: rgb(177, 177, 177);
     font-weight: 400;
     letter-spacing: .5px;
@@ -612,18 +592,18 @@ text {
     border-radius: undefined;
 }
 
-.control:hover input ~ .control_indicator,
-.control input:focus ~ .control_indicator {
+.control:hover input~.control_indicator,
+.control input:focus~.control_indicator {
     background: #FFF;
 }
 
-.control:hover input ~ .control_indicator-2,
-.control input:focus ~ .control_indicator-2 {
+.control:hover input~.control_indicator-2,
+.control input:focus~.control_indicator-2 {
     background: #FFF;
 }
 
-.control:hover input ~ .control_indicator-3,
-.control input:focus ~ .control_indicator-3 {
+.control:hover input~.control_indicator-3,
+.control input:focus~.control_indicator-3 {
     background: #FFF;
 }
 
@@ -736,7 +716,6 @@ label {
     font-size: 14px;
 }
 
-
 @media only screen and (max-width: 1200px) {
     /* #left-nav {
         width: 18%;
@@ -748,43 +727,36 @@ label {
         position: absolute;
         right: 0;
     } */
-
 }
 
 @media only screen and (max-width: 1100px) {
-   .table-text {
-       font-size: 13px;
-   }
-    
+    .table-text {
+        font-size: 13px;
+    }
 }
 
 @media only screen and (max-width: 1000px) {
-     #left-nav {
-         display: none;
-     }
-
+    #left-nav {
+        display: none;
+    }
     #right-content {
         width: 100%;
         height: auto;
         position: absolute;
         right: 0;
     }
-
-     .table-text {
-         font-size: 14px;
-     }
-
+    .table-text {
+        font-size: 14px;
+    }
 }
 
 @media only screen and (max-width: 800px) {
-
     .table {
         display: inline-block;
         background-color: #FFF;
         width: 100%;
         margin-top: 30px;
     }
-    
     .social-side {
         width: 100%;
         margin-top: 30px;
@@ -792,7 +764,6 @@ label {
         display: inline-block;
         float: none;
     }
-
     .fb-btn {
         width: 33%;
         height: 45px;
@@ -803,7 +774,6 @@ label {
         font-size: 14px;
         border-radius: 3px;
     }
-
     .twit-btn {
         width: 32%;
         height: 45px;
@@ -814,7 +784,6 @@ label {
         font-size: 14px;
         border-radius: 3px;
     }
-
     .linked-btn {
         width: 33%;
         height: 45px;
@@ -825,24 +794,20 @@ label {
         font-size: 14px;
         border-radius: 3px;
     }
-
     .social-container {
         border-bottom: solid 1px rgb(177, 177, 177);
         width: 100%;
         padding-bottom: 30px;
     }
-
     .social-text {
         font-weight: 700;
         color: rgb(100, 100, 100);
         font-size: 20px;
         margin: 15px 0 0 0;
     }
-
     .soc-padding {
         padding: 10px 0 15px 0;
     }
-
     .soc-input {
         height: 45px;
         border: solid 1px rgb(177, 177, 177);
@@ -850,12 +815,10 @@ label {
         border-radius: 3px;
         padding: 10px 0 10px 15px;
     }
-
     .soc-input::placeholder {
         font-family: 'Roboto', sans-serif;
         font-size: 14px;
     }
-
     .copy-btn {
         height: 45px;
         color: #FFF;
@@ -864,145 +827,118 @@ label {
         border-radius: 3px;
         vertical-align: top;
     }
-
     .copy-btn:hover {
         background-color: rgb(209, 110, 131);
     }
-
     .no-btn {
         width: 100%;
     }
-
     .infographics {
         margin: auto;
     }
-
     .graph {
         width: 80%;
         margin: auto;
         vertical-align: top;
         display: block;
     }
-
     .donut {
         width: 30%;
     }
-
     .margin-left {
         margin-left: 4%;
     }
-
-   .graph-btn {
-       margin: 20px 0 30px 0px;
-   }
-
-   .tabs {
-       font-family: 'Signika Negative', sans-serif;
-       text-decoration: none;
-       color: rgb(177, 177, 177);
-       font-weight: 400;
-       font-size: 15px;
-       padding: 10px 0px 10px 0;
-       width: 100%;
-       letter-spacing: .5px;
-       text-align: center;
-   }
-
-   .tab-containers {
-       display: none;
-   }
-
-   .appear {
-       display: block;
-   }
-
-   .tab-menu-btn {
-    height: 45px;
-    margin: auto;
-    width: 100%;
-    text-decoration: none;
-    background-color: rgb(150, 100, 128);
-    color: #FFF;
-    font-family: 'Signika Negative', sans-serif;
-    font-size: 14px;
-    border-radius: 3px;
+    .graph-btn {
+        margin: 20px 0 30px 0px;
     }
-
-     .tab-menu-btn:hover {
-         background-color: #FFF;
-         color: rgb(100, 100, 100);
-     }
-
-   .top-heading {
-       display: flex;
-       height: 60px;
-       width: 100%;
-       background-color: rgb(55, 64, 80);
-   }
-
-   .top-heading-text {
-       font-size: 20px;
-       align-self: center;
-       padding: 0;
-   }
-
-   .hide-hamburger {
-       display: none;
-   }
+    .tabs {
+        font-family: 'Signika Negative', sans-serif;
+        text-decoration: none;
+        color: rgb(177, 177, 177);
+        font-weight: 400;
+        font-size: 15px;
+        padding: 10px 0px 10px 0;
+        width: 100%;
+        letter-spacing: .5px;
+        text-align: center;
+    }
+    .tab-containers {
+        display: none;
+    }
+    .appear {
+        display: block;
+    }
+    .tab-menu-btn {
+        height: 45px;
+        margin: auto;
+        width: 100%;
+        text-decoration: none;
+        background-color: rgb(150, 100, 128);
+        color: #FFF;
+        font-family: 'Signika Negative', sans-serif;
+        font-size: 14px;
+        border-radius: 3px;
+    }
+    .tab-menu-btn:hover {
+        background-color: #FFF;
+        color: rgb(100, 100, 100);
+    }
+    .top-heading {
+        display: flex;
+        height: 60px;
+        width: 100%;
+        background-color: rgb(55, 64, 80);
+    }
+    .top-heading-text {
+        font-size: 20px;
+        align-self: center;
+        padding: 0;
+    }
+    .hide-hamburger {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 550px) {
-
     .fb-btn {
         width: 100%;
     }
-
     .twit-btn {
         width: 100%;
     }
-
     .linked-btn {
         width: 100%;
     }
-
     .hide-box {
-        display:none;
+        display: none;
     }
-    
     h1 {
         font-size: 28px;
     }
-
     .table-column-one {
         width: 100%;
         display: block;
     }
-
     .table-column-two {
         width: 100%;
         display: block;
         float: none;
     }
-
-   .table-text {
-       padding: 20px 0 15px 0;
-       display: inline-block;
-       vertical-align: top;
-   }
-
-   .edit-btn {
-      float: right;
-      margin: -40px 0px 0 0;
-   }
-    
-   .roboto {
+    .table-text {
+        padding: 20px 0 15px 0;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .edit-btn {
+        float: right;
+        margin: -40px 0px 0 0;
+    }
+    .roboto {
         padding: 0 0 20px 0;
     }
-
 }
 
 @media only screen and (max-width: 450px) {
-
     .soc-input {
         height: 45px;
         border: solid 1px rgb(177, 177, 177);
@@ -1010,7 +946,6 @@ label {
         border-radius: 3px;
         padding: 10px 0 10px 15px;
     }
-
     .copy-btn {
         height: 45px;
         color: #FFF;
@@ -1019,30 +954,24 @@ label {
         border-radius: 3px;
         vertical-align: top;
     }
-
     .no-btn {
         width: 100%;
     }
-
     .table-text {
-         font-size: 13px;
-     }
-
+        font-size: 13px;
+    }
     h1 {
         font-size: 25px;
     }
-
 }
 
 @media only screen and (max-width: 375px) {
     .search-input {
         font-size: 14px;
     }
-
     h1 {
         font-size: 22px;
     }
-
     .graph-btn {
         width: 120px;
         font-size: 12px;
