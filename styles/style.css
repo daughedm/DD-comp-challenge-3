@@ -1,36 +1,24 @@
+/* ~~~~~~~~~~Overall Styling~~~~~~~~~~~ */
+
 body,
 :hover {
     cursor: url(http://cur.cursors-4u.net/others/oth-1/oth28.cur), progress !important;
 }
 
 body {
-    font-family: 'Signika Negative', sans-serif;
     background: rgb(240, 241, 241);
+    font-family: 'Signika Negative', sans-serif;
 }
 
 html {
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 
 * {
     box-sizing: border-box;
-    padding: 0;
     margin: 0;
-}
-
-.subtext {
-    fill: rgb(70, 70, 70);
-    font-size: .2rem;
-    font-family: 'Signika Negative', sans-serif;
-    font-weight: 400;
-}
-
-/* ~~~~~~~~~~Left Nav Styling~~~~~~~~~~~ */
-
-figure {
     padding: 0;
-    margin: 0;
 }
 
 p {
@@ -39,44 +27,58 @@ p {
 
 h1 {
     color: rgb(100, 100, 100);
-    padding: 0 0 5px 0;
     font-size: 30px;
+    padding: 0 0 5px 0;
 }
 
 h3 {
+    color: rgb(177, 177, 177);
     font-family: 'Signika Negative', sans-serif;
     font-size: 13px;
-    margin: 5px 0 5px 15px;
-    color: rgb(177, 177, 177);
     font-weight: 400;
+    margin: 5px 0 5px 15px;
 }
 
 i {
     margin-right: 10px;
 }
 
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+/* ~~~~~~~~~~Left Nav Styling~~~~~~~~~~~ */
+
+.subtext {
+    fill: rgb(70, 70, 70);
+    font-family: 'Signika Negative', sans-serif;
+    font-size: .2rem;
+    font-weight: 400;
+}
+
 #left-nav {
-    width: 200px;
-    min-width: 180px;
-    height: 1350px;
-    position: absolute;
     background: rgb(55, 64, 80);
+    height: 1350px;
+    min-width: 180px;
+    position: absolute;
+    width: 200px;
 }
 
 .nav-text {
-    font-family: 'Signika Negative', sans-serif;
     color: rgb(177, 177, 177);
+    font-family: 'Signika Negative', sans-serif;
     font-weight: 400;
     font-size: 14px;
-    padding: 5px 0 5px 0;
-    margin: auto 0 auto 15px;
-    width: 100%;
     letter-spacing: 1px;
+    margin: auto 0 auto 15px;
+    padding: 5px 0 5px 0;
+    width: 100%;
 }
 
 .Bill {
-    text-align: center;
     margin: 0 0 0 5px;
+    text-align: center;
 }
 
 .nav-text:hover {
@@ -85,16 +87,16 @@ i {
 
 .nav-container {
     border-bottom: solid 2px rgb(40, 47, 59);
-    width: 100%;
     padding: 15px 0 15px 0;
+    width: 100%;
 }
 
 .head-shot {
-    width: 50%;
     border-radius: 100%;
-    text-align: center;
     margin: 12% 25% 4% 25%;
+    text-align: center;
     transition: all .2s ease-in-out;
+    width: 50%;
 }
 
 .head-shot:hover {
@@ -102,20 +104,19 @@ i {
 }
 
 .side-boxes {
-    display: flex;
     align-items: center;
-    width: 100%;
+    display: flex;
     border: solid 3px transparent;
     text-align: left;
     height: 40px;
+    width: 100%;
 }
 
 .side-boxes:hover {
+    border-left: solid 3px rgb(248, 173, 148);
     background-color: rgb(40, 47, 59);
     color: #FFF;
-    border-left: solid 3px rgb(248, 173, 148);
     overflow: hidden;
-    cursor: url(../images/lightsaberred.cur);
     width: 98%;
 }
 
@@ -134,17 +135,17 @@ i {
 /* ~~~~~~~~~~Right Nav Styling~~~~~~~~~~~ */
 
 #right-content {
-    margin-left: 200px;
     height: auto;
+    margin-left: 200px;
     position: absolute;
     right: 0;
 }
 
 .top-heading {
+    background-color: rgb(55, 64, 80);
     display: none;
     height: 60px;
     width: 100%;
-    background-color: rgb(55, 64, 80);
 }
 
 .top-bar {
@@ -153,10 +154,10 @@ i {
 
 .square-container {
     background-color: #FFF;
-    height: 60px;
-    width: 60px;
     border-bottom: solid 1px rgb(177, 177, 177);
     border-left: solid 1px rgb(177, 177, 177);
+    height: 60px;
+    width: 60px;
 }
 
 .square-container:hover {
@@ -165,10 +166,10 @@ i {
 
 .square-container-left {
     background-color: #FFF;
-    height: 60px;
-    width: 60px;
     border-bottom: solid 1px rgb(177, 177, 177);
     border-right: solid 1px rgb(177, 177, 177);
+    height: 60px;
+    width: 60px;
 }
 
 .square-container-left:hover {
@@ -177,9 +178,9 @@ i {
 
 .search-container {
     background-color: #FFF;
-    height: 60px;
-    flex-grow: 1;
     border-bottom: solid 1px rgb(177, 177, 177);
+    flex-grow: 1;
+    height: 60px;
 }
 
 .icon-menu,
@@ -261,17 +262,93 @@ text {
     margin: 0 0 20px -5px;
 }
 
+.open-btn {
+    border-radius: 20px;
+    height: 40px;
+    margin-right: 7px;
+    width: 100px;
+    color: rgb(100, 100, 100);
+    font-family: 'Signika Negative',sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.open-btn:hover {
+    background-color: rgb(240, 241, 241);
+}
+
+.open-btn i {
+    color: rgb(246, 122, 131);
+}
+
+.bookmark-btn {
+    border-radius: 100%;
+    height: 40px;
+    margin-right: 7px;
+    width: 40px;
+    color: rgb(100, 100, 100);
+    font-size: 14px;
+}
+
+.bookmark-btn:hover {
+    background-color: rgb(240, 241, 241);
+}
+
+.edited-btn {
+    border-radius: 100%;
+    height: 40px;
+    margin-right: 7px;
+    width: 40px;
+    color: rgb(100, 100, 100);
+    font-size: 14px;
+}
+
+.edited-btn:hover {
+    background-color: rgb(240, 241, 241);
+}
+
+.trash-btn {
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    color: rgb(100, 100, 100);
+    font-size: 14px;
+}
+
+.trash-btn:hover {
+    background-color: rgb(240, 241, 241);
+}
+
+
+.trash-btn i {
+    margin: auto;
+}
+
+.edited-btn i {
+    margin: auto;
+}
+
+.bookmark-btn i {
+    margin: auto;
+}
+
+.four-btns {
+    position: absolute;
+    right: 30px;
+    top: 100px;
+}
+
 .preview {
     color: rgb(209, 110, 131);
     cursor: url(../images/lightsaberred.cur);
 }
 
 .tab-containers {
+    border-bottom: solid 3px transparent;
     display: inline-block;
-    text-align: center;
     margin: 5px 10px 0px 15px;
     padding-bottom: 10px;
-    border-bottom: solid 3px transparent;
+    text-align: center;
 }
 
 .tab-containers:hover {
@@ -279,15 +356,15 @@ text {
 }
 
 .tabs {
-    font-family: 'Signika Negative', sans-serif;
-    text-decoration: none;
     color: rgb(177, 177, 177);
+    font-family: 'Signika Negative', sans-serif;
     font-weight: 400;
     font-size: 14px;
-    padding: 10px 0px 10px 0;
-    width: 100%;
     letter-spacing: .5px;
+    padding: 10px 0px 10px 0;
     text-align: center;
+    text-decoration: none;
+    width: 100%;
 }
 
 .first-tab {
@@ -303,22 +380,22 @@ text {
 }
 
 .btn-container {
+    border-bottom: solid 1px rgb(177, 177, 177);
     display: flex;
     justify-content: space-around;
-    border-bottom: solid 1px rgb(177, 177, 177);
 }
 
 .graph-btn {
+    border-radius: 25px;
+    color: rgb(100, 100, 100);
+    display: inline-block;
     font-family: 'Signika Negative', sans-serif;
+    font-size: 13px;
+    height: 40px;
+    justify-content: space-around;
+    margin: 20px 0 30px 30px;
     text-decoration: none;
     width: 140px;
-    height: 40px;
-    border-radius: 25px;
-    display: inline-block;
-    color: rgb(100, 100, 100);
-    font-size: 13px;
-    margin: 20px 0 30px 30px;
-    justify-content: space-around;
 }
 
 .graph-btn:hover {
@@ -327,25 +404,25 @@ text {
 }
 
 .table {
-    display: inline-block;
-    background-color: #FFF;
-    width: 65%;
-    margin-top: 30px;
     border-radius: 3px;
+    background-color: #FFF;
+    display: inline-block;
+    margin-top: 30px;
+    width: 65%;
 }
 
 .social-side {
-    width: 31%;
-    margin-top: 30px;
-    height: 600px;
     display: inline-block;
     float: right;
+    height: 600px;
+    margin-top: 30px;
+    width: 31%;
 }
 
 .job-header {
-    width: 100%;
     background-color: rgb(150, 100, 128);
     border-radius: 3px 3px 0 0;
+    width: 100%;
 }
 
 .table-row {
@@ -355,40 +432,40 @@ text {
 }
 
 .table-row:after {
+    clear: both;
     content: "";
     display: table;
-    clear: both;
 }
 
 .table-text {
-    font-family: 'Signika Negative', sans-serif;
     color: rgb(100, 100, 100);
-    font-weight: 400;
-    font-size: 14px;
-    padding: 30px 0 30px 0;
-    margin: 0;
-    letter-spacing: .75px;
     display: inline-block;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .75px;
+    margin: 0;
+    padding: 30px 0 30px 0;
     vertical-align: top;
 }
 
 .table-column-one {
-    width: 25%;
     display: inline-block;
+    width: 25%;
 }
 
 .table-column-two {
-    width: 70%;
     display: inline-block;
     float: right;
+    width: 70%;
 }
 
 .yoda {
     border-radius: 100%;
-    width: 40px;
+    display: inline-block;
     height: 40px;
     margin: 13px 10px 0 0;
-    display: inline-block;
+    width: 40px;
 }
 
 .white {
@@ -396,21 +473,21 @@ text {
 }
 
 .edit-btn {
-    font-family: 'Signika Negative', sans-serif;
-    text-decoration: none;
+    border-radius: 5px;
     background-color: rgb(150, 100, 128);
     border: solid 1px #FFF;
     color: #FFF;
-    padding: 7px 10px;
-    font-weight: 400;
+    font-family: 'Signika Negative', sans-serif;
     font-size: 14px;
+    font-weight: 400;
     margin-top: 18px;
-    border-radius: 5px;
+    padding: 7px 10px;
+    text-decoration: none;
 }
 
 .edit-btn:hover {
-    color: rgb(150, 100, 128);
     background-color: #FFF;
+    color: rgb(150, 100, 128);
 }
 
 .roboto {
@@ -418,36 +495,36 @@ text {
 }
 
 .fb-btn {
-    width: 100%;
-    height: 45px;
-    color: #FFF;
-    margin-bottom: 15px;
     background-color: rgb(80, 111, 186);
+    border-radius: 3px;
+    color: #FFF;
     font-family: 'Signika Negative', sans-serif;
     font-size: 14px;
-    border-radius: 3px;
+    height: 45px;
+    margin-bottom: 15px;
+    width: 100%;
 }
 
 .twit-btn {
-    width: 100%;
-    height: 45px;
-    color: #FFF;
-    margin-bottom: 15px;
     background-color: rgb(72, 168, 233);
+    border-radius: 3px;
+    color: #FFF;
+    height: 45px;
     font-family: 'Signika Negative', sans-serif;
     font-size: 14px;
-    border-radius: 3px;
+    margin-bottom: 15px;
+    width: 100%;
 }
 
 .linked-btn {
-    width: 100%;
-    height: 45px;
-    color: #FFF;
-    margin-bottom: 15px;
     background-color: rgb(54, 128, 183);
+    border-radius: 3px;
+    color: #FFF;
+    height: 45px;
     font-family: 'Signika Negative', sans-serif;
     font-size: 14px;
-    border-radius: 3px;
+    margin-bottom: 15px;
+    width: 100%;
 }
 
 .fb-btn:hover {
@@ -464,14 +541,14 @@ text {
 
 .social-container {
     border-bottom: solid 1px rgb(177, 177, 177);
-    width: 100%;
     padding-bottom: 30px;
+    width: 100%;
 }
 
 .social-text {
-    font-weight: 700;
     color: rgb(100, 100, 100);
     font-size: 20px;
+    font-weight: 700;
     margin: 15px 0 0 0;
 }
 
@@ -480,11 +557,11 @@ text {
 }
 
 .soc-input {
-    height: 45px;
     border: solid 1px rgb(177, 177, 177);
-    width: 75%;
     border-radius: 3px;
+    height: 45px;
     padding: 10px 0 10px 15px;
+    width: 75%;
 }
 
 .soc-input::placeholder {
@@ -493,12 +570,12 @@ text {
 }
 
 .copy-btn {
-    height: 45px;
-    color: #FFF;
     background-color: rgb(55, 64, 80);
-    width: 23%;
     border-radius: 3px;
+    color: #FFF;
+    height: 45px;
     vertical-align: top;
+    width: 23%;
 }
 
 .copy-btn:hover {
@@ -525,67 +602,67 @@ text {
 /* ~~~~~~~~~~Checkbox Styling~~~~~~~~~~~ */
 
 .control {
-    font-family: 'Signika Negative', sans-serif;
     color: rgb(177, 177, 177);
-    font-weight: 400;
-    letter-spacing: .5px;
-    padding: 8px 0 8px 0;
     display: block;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: .5px;
+    margin: 5px 0 5px 0;
+    padding: 8px 0 8px 0;
     position: relative;
     padding-left: 47px;
-    margin: 5px 0 5px 0;
     padding-top: 5px;
-    font-size: 14px;
 }
 
 .control input {
+    opacity: 0;
     position: absolute;
     z-index: -1;
-    opacity: 0;
 }
 
 .control_indicator {
-    position: absolute;
-    top: 3px;
-    left: 0;
-    height: 13px;
-    width: 13px;
     background: rgb(248, 173, 148);
     border: 1px solid rgb(177, 177, 177);
+    height: 13px;
+    left: 0;
     margin-left: 18px;
+    position: absolute;
+    top: 3px;
+    width: 13px;
 }
 
 .control_indicator-2 {
-    position: absolute;
-    top: 3px;
-    left: 0;
-    height: 13px;
-    width: 13px;
     background: rgb(246, 122, 131);
     border: 1px solid rgb(177, 177, 177);
+    height: 13px;
+    left: 0;
     margin-left: 18px;
+    position: absolute;
+    top: 3px;
+    width: 13px;
 }
 
 .control_indicator-3 {
-    position: absolute;
-    top: 3px;
-    left: 0;
-    height: 13px;
-    width: 13px;
     background: rgb(209, 110, 131);
     border: 1px solid rgb(177, 177, 177);
+    left: 0;
+    height: 13px;
     margin-left: 18px;
+    position: absolute;
+    top: 3px;
+    width: 13px;
 }
 
 .control_indicator-4 {
-    position: absolute;
-    top: 3px;
-    left: 0;
-    height: 13px;
-    width: 13px;
     background: rgb(150, 100, 128);
     border: 1px solid rgb(177, 177, 177);
+    left: 0;
+    height: 13px;
     margin-left: 18px;
+    position: absolute;
+    top: 3px;
+    width: 13px;
 }
 
 .control-radio .control_indicator {
@@ -631,29 +708,29 @@ text {
 .control_indicator:after {
     box-sizing: unset;
     content: '';
-    position: absolute;
     display: none;
+    position: absolute;
 }
 
 .control_indicator-2:after {
     box-sizing: unset;
     content: '';
-    position: absolute;
     display: none;
+    position: absolute;
 }
 
 .control_indicator-3:after {
     box-sizing: unset;
     content: '';
-    position: absolute;
     display: none;
+    position: absolute;
 }
 
 .control_indicator-4:after {
     box-sizing: unset;
     content: '';
-    position: absolute;
     display: none;
+    position: absolute;
 }
 
 .control input:checked~.control_indicator:after {
@@ -673,60 +750,47 @@ text {
 }
 
 .control-checkbox .control_indicator:after {
-    left: 3px;
-    top: 1px;
-    width: 3px;
-    height: 5px;
     border: solid #ffffff;
     border-width: 0 2px 2px 0;
+    left: 3px;
+    height: 5px;
+    top: 1px;
     transform: rotate(45deg);
+    width: 3px;
 }
 
 .control-checkbox .control_indicator-2:after {
+    border-width: 0 2px 2px 0;
+    border: solid #ffffff;
+    height: 5px;
     left: 3px;
     top: 1px;
-    width: 3px;
-    height: 5px;
-    border: solid #ffffff;
-    border-width: 0 2px 2px 0;
     transform: rotate(45deg);
+    width: 3px;
 }
 
 .control-checkbox .control_indicator-3:after {
+    border-width: 0 2px 2px 0;
+    border: solid #ffffff;
+    height: 5px;
     left: 3px;
     top: 1px;
-    width: 3px;
-    height: 5px;
-    border: solid #ffffff;
-    border-width: 0 2px 2px 0;
     transform: rotate(45deg);
+    width: 3px;
 }
 
 .control-checkbox .control_indicator-4:after {
-    left: 3px;
-    top: 1px;
-    width: 3px;
-    height: 5px;
     border: solid #ffffff;
     border-width: 0 2px 2px 0;
+    height: 5px;
+    left: 3px;
+    top: 1px;
     transform: rotate(45deg);
+    width: 3px;
 }
 
 label {
     font-size: 14px;
-}
-
-@media only screen and (max-width: 1200px) {
-    /* #left-nav {
-        width: 18%;
-    }
-
-    #right-content {
-        width: 82%;
-        height: auto;
-        position: absolute;
-        right: 0;
-    } */
 }
 
 @media only screen and (max-width: 1100px) {
@@ -740,107 +804,109 @@ label {
         display: none;
     }
     #right-content {
-        width: 100%;
         height: auto;
         position: absolute;
         right: 0;
+        width: 100%;
     }
     .table-text {
         font-size: 14px;
     }
+
+     .top-heading {
+         background-color: rgb(55, 64, 80);
+         display: flex;
+         height: 60px;
+         width: 100%;
+     }
+
+     .top-heading-text {
+         align-self: center;
+         font-size: 20px;
+         padding: 0;
+     }
+
+     .hide-hamburger {
+         display: none;
+     }
+     
+     .four-btns {
+         display: none;
+     }
 }
 
 @media only screen and (max-width: 800px) {
     .table {
-        display: inline-block;
         background-color: #FFF;
-        width: 100%;
+        display: inline-block;
         margin-top: 30px;
+        width: 100%;
     }
     .social-side {
-        width: 100%;
-        margin-top: 30px;
-        height: 600px;
         display: inline-block;
         float: none;
+        height: 600px;
+        margin-top: 30px;
+        width: 100%;
     }
     .fb-btn {
         width: 33%;
-        height: 45px;
-        color: #FFF;
-        margin-bottom: 15px;
-        background-color: rgb(80, 111, 186);
-        font-family: 'Signika Negative', sans-serif;
-        font-size: 14px;
-        border-radius: 3px;
     }
     .twit-btn {
         width: 32%;
-        height: 45px;
-        color: #FFF;
-        margin-bottom: 15px;
-        background-color: rgb(72, 168, 233);
-        font-family: 'Signika Negative', sans-serif;
-        font-size: 14px;
-        border-radius: 3px;
     }
     .linked-btn {
         width: 33%;
-        height: 45px;
-        color: #FFF;
-        margin-bottom: 15px;
-        background-color: rgb(54, 128, 183);
-        font-family: 'Signika Negative', sans-serif;
-        font-size: 14px;
-        border-radius: 3px;
     }
     .social-container {
         border-bottom: solid 1px rgb(177, 177, 177);
-        width: 100%;
         padding-bottom: 30px;
+        width: 100%;
     }
+    
     .social-text {
-        font-weight: 700;
         color: rgb(100, 100, 100);
+        font-weight: 700;
         font-size: 20px;
         margin: 15px 0 0 0;
     }
+    
     .soc-padding {
         padding: 10px 0 15px 0;
     }
+    
     .soc-input {
-        height: 45px;
         border: solid 1px rgb(177, 177, 177);
-        width: 84%;
         border-radius: 3px;
+        height: 45px;
         padding: 10px 0 10px 15px;
+        width: 84%;
     }
     .soc-input::placeholder {
         font-family: 'Roboto', sans-serif;
         font-size: 14px;
     }
     .copy-btn {
-        height: 45px;
-        color: #FFF;
-        background-color: rgb(55, 64, 80);
         width: 15%;
-        border-radius: 3px;
-        vertical-align: top;
     }
+    
     .copy-btn:hover {
         background-color: rgb(209, 110, 131);
     }
+    
     .no-btn {
         width: 100%;
     }
+    
     .infographics {
         margin: auto;
     }
+    
     .graph {
-        width: 80%;
+        display: block;
         margin: auto;
         vertical-align: top;
-        display: block;
+        width: 80%;
     }
     .donut {
         width: 30%;
@@ -851,17 +917,7 @@ label {
     .graph-btn {
         margin: 20px 0 30px 0px;
     }
-    .tabs {
-        font-family: 'Signika Negative', sans-serif;
-        text-decoration: none;
-        color: rgb(177, 177, 177);
-        font-weight: 400;
-        font-size: 15px;
-        padding: 10px 0px 10px 0;
-        width: 100%;
-        letter-spacing: .5px;
-        text-align: center;
-    }
+  
     .tab-containers {
         display: none;
     }
@@ -869,33 +925,19 @@ label {
         display: block;
     }
     .tab-menu-btn {
-        height: 45px;
-        margin: auto;
-        width: 100%;
-        text-decoration: none;
         background-color: rgb(150, 100, 128);
+        border-radius: 3px;
         color: #FFF;
+        height: 45px;
         font-family: 'Signika Negative', sans-serif;
         font-size: 14px;
-        border-radius: 3px;
+        margin: auto;
+        text-decoration: none;
+        width: 100%;
     }
     .tab-menu-btn:hover {
         background-color: #FFF;
         color: rgb(100, 100, 100);
-    }
-    .top-heading {
-        display: flex;
-        height: 60px;
-        width: 100%;
-        background-color: rgb(55, 64, 80);
-    }
-    .top-heading-text {
-        font-size: 20px;
-        align-self: center;
-        padding: 0;
-    }
-    .hide-hamburger {
-        display: none;
     }
 }
 
@@ -916,17 +958,17 @@ label {
         font-size: 28px;
     }
     .table-column-one {
-        width: 100%;
         display: block;
+        width: 100%;
     }
     .table-column-two {
-        width: 100%;
         display: block;
         float: none;
+        width: 100%;
     }
     .table-text {
-        padding: 20px 0 15px 0;
         display: inline-block;
+        padding: 20px 0 15px 0;
         vertical-align: top;
     }
     .edit-btn {
@@ -940,19 +982,10 @@ label {
 
 @media only screen and (max-width: 450px) {
     .soc-input {
-        height: 45px;
-        border: solid 1px rgb(177, 177, 177);
-        width: 73%;
-        border-radius: 3px;
-        padding: 10px 0 10px 15px;
+        width: 75%;
     }
     .copy-btn {
-        height: 45px;
-        color: #FFF;
-        background-color: rgb(55, 64, 80);
         width: 23%;
-        border-radius: 3px;
-        vertical-align: top;
     }
     .no-btn {
         width: 100%;
@@ -973,7 +1006,7 @@ label {
         font-size: 22px;
     }
     .graph-btn {
-        width: 120px;
         font-size: 12px;
+        width: 120px;
     }
 }
